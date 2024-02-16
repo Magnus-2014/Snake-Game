@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.game-area {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.snake, .food {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
